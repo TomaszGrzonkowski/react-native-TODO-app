@@ -19,10 +19,10 @@ const TodoModal = ({ handleAdd, isOpen, onCloseModal }) => {
       return;
     }
     handleAdd(title, description);
-    handleCancel();
+    handleClean();
   };
 
-  const handleCancel = () => {
+  const handleClean = () => {
     setTitle("");
     setDescription("");
     setError(false);
