@@ -63,7 +63,7 @@ const TodoModal = ({ handleAdd, isOpen, onCloseModal }) => {
           <TouchableOpacity style={styles.button} onPress={handleAddItem}>
             <Text>ADD</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button} onPress={handleCancel}>
+          <TouchableOpacity style={styles.button} onPress={handleClean}>
             <Text>CANCEL</Text>
           </TouchableOpacity>
         </View>
